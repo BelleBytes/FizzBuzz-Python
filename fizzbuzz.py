@@ -1,16 +1,7 @@
-def fizzbuzz(n: int):
-    x = 1
-    while x <= n:
-        if x%3 == 0 and x%5 == 0:
-            print("Fizzbuzz")
-        elif x%3 == 0:
-            print("Fizz")
-        elif x%5 == 0:
-            print("Buzz")
-        else:
-            print(x)
-        x+= 1
+from fizzbuzz_implementation import fizzbuzz
 
-
+# Sample use of Fizzbuzz implementation
 n = 50
-fizzbuzz(n)
+fizzbuzz_result = fizzbuzz(50)
+for item in fizzbuzz_result:
+    print(item)
