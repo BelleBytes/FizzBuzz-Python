@@ -3,7 +3,7 @@ def fizzbuzz(n: int):
     result = []
     while x <= n:
         if x%3 == 0 and x%5 == 0:
-            result.append("Fizzbuzz")
+            result.append("FizzBuzz")
         elif x%3 == 0:
             result.append("Fizz")
         elif x%5 == 0:

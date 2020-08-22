@@ -1,4 +1,7 @@
 # FizzBuzz-Python
+
+![Python application](https://github.com/BelleBytes/FizzBuzz-Python/workflows/Python%20application/badge.svg)
+
 ## How to create a simple FizzBuzz structure in Python
 
 

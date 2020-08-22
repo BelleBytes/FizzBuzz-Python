@@ -12,8 +12,8 @@ def test_multiple_of_five():
 
 def test_multiple_of_three_and_five():
     result = fizzbuzz(50)
-    assert result[14] == "Fizzbuzz", "15 Should be Fizzbuzz"
-    assert result[29] == "Fizzbuzz", "30 Should be Fizzbuzz"
+    assert result[14] == "FizzBuzz", "15 Should be FizzBuzz"
+    assert result[29] == "FizzBuzz", "30 Should be FizzBuzz"
 
 if __name__ == "__main__":
     test_multiple_of_three()
